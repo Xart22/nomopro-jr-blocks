@@ -56,6 +56,12 @@ Blockly.Blocks["motion_moveright"] = {
       message0: Blockly.Msg.MOTION_MOVESRIGHT,
       args0: [
         {
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Foward.svg",
+          width: 70,
+          height: 70,
+        },
+        {
           type: "input_value",
           name: "STEPS",
         },
@@ -71,6 +77,12 @@ Blockly.Blocks["motion_moveleft"] = {
     this.jsonInit({
       message0: Blockly.Msg.MOTION_MOVESLEFT,
       args0: [
+        {
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Back.svg",
+          width: 70,
+          height: 70,
+        },
         {
           type: "input_value",
           name: "STEPS",
@@ -88,6 +100,12 @@ Blockly.Blocks["motion_moveup"] = {
       message0: Blockly.Msg.MOTION_MOVESUP,
       args0: [
         {
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Up.svg",
+          width: 70,
+          height: 70,
+        },
+        {
           type: "input_value",
           name: "STEPS",
         },
@@ -104,25 +122,11 @@ Blockly.Blocks["motion_movedown"] = {
       message0: Blockly.Msg.MOTION_MOVESDOWN,
       args0: [
         {
-          type: "input_value",
-          name: "STEPS",
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Down.svg",
+          width: 70,
+          height: 70,
         },
-      ],
-      category: Blockly.Categories.motion,
-      extensions: ["colours_motion", "shape_statement"],
-    });
-  },
-};
-
-Blockly.Blocks["motion_movestepstoleft"] = {
-  /**
-   * Block to move steps.
-   * @this Blockly.Block
-   */
-  init: function () {
-    this.jsonInit({
-      message0: Blockly.Msg.MOTION_MOVESTEPSTOLEFT,
-      args0: [
         {
           type: "input_value",
           name: "STEPS",
@@ -134,15 +138,17 @@ Blockly.Blocks["motion_movestepstoleft"] = {
   },
 };
 
-Blockly.Blocks["motion_movestepstoright"] = {
-  /**
-   * Block to move steps.
-   * @this Blockly.Block
-   */
+Blockly.Blocks["motion_hop"] = {
   init: function () {
     this.jsonInit({
-      message0: Blockly.Msg.MOTION_MOVESTEPSTORIGHT,
+      message0: Blockly.Msg.MOTION_HOP,
       args0: [
+        {
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Hop.svg",
+          width: 70,
+          height: 70,
+        },
         {
           type: "input_value",
           name: "STEPS",
@@ -153,39 +159,16 @@ Blockly.Blocks["motion_movestepstoright"] = {
     });
   },
 };
-
-Blockly.Blocks["motion_movestepsup"] = {
-  /**
-   * Block to move steps.
-   * @this Blockly.Block
-   */
+Blockly.Blocks["motion_go_home"] = {
   init: function () {
     this.jsonInit({
-      message0: Blockly.Msg.MOTION_MOVESTEPSUP,
+      message0: Blockly.Msg.MOTION_GO_HOME,
       args0: [
         {
-          type: "input_value",
-          name: "STEPS",
-        },
-      ],
-      category: Blockly.Categories.motion,
-      extensions: ["colours_motion", "shape_statement"],
-    });
-  },
-};
-
-Blockly.Blocks["motion_movestepsdown"] = {
-  /**
-   * Block to move steps.
-   * @this Blockly.Block
-   */
-  init: function () {
-    this.jsonInit({
-      message0: Blockly.Msg.MOTION_MOVESTEPSDOWN,
-      args0: [
-        {
-          type: "input_value",
-          name: "STEPS",
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Home.svg",
+          width: 70,
+          height: 70,
         },
       ],
       category: Blockly.Categories.motion,
@@ -205,9 +188,9 @@ Blockly.Blocks["motion_turnright"] = {
       args0: [
         {
           type: "field_image",
-          src: Blockly.mainWorkspace.options.pathToMedia + "rotate-right.svg",
-          width: 24,
-          height: 24,
+          src: Blockly.mainWorkspace.options.pathToMedia + "Right.svg",
+          width: 70,
+          height: 70,
         },
         {
           type: "input_value",
@@ -231,9 +214,9 @@ Blockly.Blocks["motion_turnleft"] = {
       args0: [
         {
           type: "field_image",
-          src: Blockly.mainWorkspace.options.pathToMedia + "rotate-left.svg",
-          width: 24,
-          height: 24,
+          src: Blockly.mainWorkspace.options.pathToMedia + "Left.svg",
+          width: 70,
+          height: 70,
         },
         {
           type: "input_value",
