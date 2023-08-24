@@ -8,13 +8,13 @@ const storage = {};
 
 // File paths
 const PATH_INPUT = path.resolve(__dirname, '../msg/messages.js');
+console.log(PATH_INPUT);
 const PATH_OUTPUT = path.resolve(__dirname, '../msg/json/en.json');
 
 // Match function
 const match = function (str) {
     if (str.indexOf('Blockly.Msg.') !== 0) return false;
     assert.notStrictEqual(str.indexOf('";'), str.length - 2, `[${str}] uses double quoted string, should use single quotes.`);
-    if (str.indexOf("';") !== str.length - 2) return false;
     return true;
 }
 
@@ -38,6 +38,7 @@ stream
     .pipe(es.mapSync(function (str) {
         if (!match(str)) return;
         const result = extract(str);
+        console.log(result);
         storage[result.key] = result.value;
     }))
     .pipe(es.wait(function (err) {

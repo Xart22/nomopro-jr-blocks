@@ -46,6 +46,73 @@ Blockly.Blocks["motion_movesteps"] = {
     });
   },
 };
+Blockly.Blocks["motion_moveright"] = {
+  /**
+   * Block to move steps.
+   * @this Blockly.Block
+   */
+  init: function () {
+    this.jsonInit({
+      message0: Blockly.Msg.MOTION_MOVESRIGHT,
+      args0: [
+        {
+          type: "input_value",
+          name: "STEPS",
+        },
+      ],
+      category: Blockly.Categories.motion,
+      extensions: ["colours_motion", "shape_statement"],
+    });
+  },
+};
+
+Blockly.Blocks["motion_moveleft"] = {
+  init: function () {
+    this.jsonInit({
+      message0: Blockly.Msg.MOTION_MOVESLEFT,
+      args0: [
+        {
+          type: "input_value",
+          name: "STEPS",
+        },
+      ],
+      category: Blockly.Categories.motion,
+      extensions: ["colours_motion", "shape_statement"],
+    });
+  },
+};
+
+Blockly.Blocks["motion_moveup"] = {
+  init: function () {
+    this.jsonInit({
+      message0: Blockly.Msg.MOTION_MOVESUP,
+      args0: [
+        {
+          type: "input_value",
+          name: "STEPS",
+        },
+      ],
+      category: Blockly.Categories.motion,
+      extensions: ["colours_motion", "shape_statement"],
+    });
+  },
+};
+
+Blockly.Blocks["motion_movedown"] = {
+  init: function () {
+    this.jsonInit({
+      message0: Blockly.Msg.MOTION_MOVESDOWN,
+      args0: [
+        {
+          type: "input_value",
+          name: "STEPS",
+        },
+      ],
+      category: Blockly.Categories.motion,
+      extensions: ["colours_motion", "shape_statement"],
+    });
+  },
+};
 
 Blockly.Blocks["motion_movestepstoleft"] = {
   /**

@@ -31,8 +31,10 @@ LICENSE.chromedriver
 /dist
 /msg/js/*
 !/msg/js/en.js
+!/msg/js/id.js
 /msg/json/*
 !/msg/json/en.json
+!/msg/json/id.json
 /blockly_compressed_horizontal.js
 /blockly_compressed_vertical.js
 /blockly_uncompressed_horizontal.js
