@@ -58,8 +58,8 @@ Blockly.Blocks["motion_moveright"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Foward.svg",
-          width: 70,
-          height: 70,
+          width: 35,
+          height: 35,
         },
         {
           type: "input_value",
@@ -80,8 +80,8 @@ Blockly.Blocks["motion_moveleft"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Back.svg",
-          width: 70,
-          height: 70,
+          width: 35,
+          height: 35,
         },
         {
           type: "input_value",
@@ -102,8 +102,8 @@ Blockly.Blocks["motion_moveup"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Up.svg",
-          width: 70,
-          height: 70,
+          width: 35,
+          height: 35,
         },
         {
           type: "input_value",
@@ -124,8 +124,8 @@ Blockly.Blocks["motion_movedown"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Down.svg",
-          width: 70,
-          height: 70,
+          width: 35,
+          height: 35,
         },
         {
           type: "input_value",
@@ -146,8 +146,8 @@ Blockly.Blocks["motion_hop"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Hop.svg",
-          width: 70,
-          height: 70,
+          width: 35,
+          height: 35,
         },
         {
           type: "input_value",
@@ -167,8 +167,8 @@ Blockly.Blocks["motion_go_home"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Home.svg",
-          width: 70,
-          height: 70,
+          width: 35,
+          height: 35,
         },
       ],
       category: Blockly.Categories.motion,
@@ -189,8 +189,8 @@ Blockly.Blocks["motion_turnright"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Right.svg",
-          width: 70,
-          height: 70,
+          width: 35,
+          height: 35,
         },
         {
           type: "input_value",
@@ -215,8 +215,8 @@ Blockly.Blocks["motion_turnleft"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Left.svg",
-          width: 70,
-          height: 70,
+          width: 35,
+          height: 35,
         },
         {
           type: "input_value",
