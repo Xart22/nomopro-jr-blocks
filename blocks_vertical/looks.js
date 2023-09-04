@@ -39,8 +39,8 @@ Blockly.Blocks["looks_reset_size"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Reset.svg",
-          width: 35,
-          height: 35,
+          width: 60,
+          height: 60,
         },
       ],
       category: Blockly.Categories.looks,
@@ -61,8 +61,8 @@ Blockly.Blocks["looks_grow"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Grow.svg",
-          width: 35,
-          height: 35,
+          width: 60,
+          height: 60,
         },
         {
           type: "input_value",
@@ -87,8 +87,8 @@ Blockly.Blocks["looks_shirink"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Shrink.svg",
-          width: 35,
-          height: 35,
+          width: 60,
+          height: 60,
         },
         {
           type: "input_value",
@@ -137,8 +137,8 @@ Blockly.Blocks["looks_say"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Say.svg",
-          width: 35,
-          height: 35,
+          width: 60,
+          height: 60,
         },
         {
           type: "input_value",
@@ -207,8 +207,8 @@ Blockly.Blocks["looks_show"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Appear.svg",
-          width: 35,
-          height: 35,
+          width: 60,
+          height: 60,
         },
       ],
       category: Blockly.Categories.looks,
@@ -229,8 +229,8 @@ Blockly.Blocks["looks_hide"] = {
         {
           type: "field_image",
           src: Blockly.mainWorkspace.options.pathToMedia + "Disappear.svg",
-          width: 35,
-          height: 35,
+          width: 60,
+          height: 60,
         },
       ],
       category: Blockly.Categories.looks,
@@ -477,6 +477,12 @@ Blockly.Blocks["looks_switchcostumeto"] = {
       message0: Blockly.Msg.LOOKS_SWITCHCOSTUMETO,
       args0: [
         {
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Switch.svg",
+          width: 60,
+          height: 60,
+        },
+        {
           type: "input_value",
           name: "COSTUME",
         },
@@ -495,6 +501,14 @@ Blockly.Blocks["looks_nextcostume"] = {
   init: function () {
     this.jsonInit({
       message0: Blockly.Msg.LOOKS_NEXTCOSTUME,
+      args0: [
+        {
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Costume.svg",
+          width: 60,
+          height: 60,
+        },
+      ],
       category: Blockly.Categories.looks,
       extensions: ["colours_looks", "shape_statement"],
     });
@@ -510,6 +524,12 @@ Blockly.Blocks["looks_switchbackdropto"] = {
     this.jsonInit({
       message0: Blockly.Msg.LOOKS_SWITCHBACKDROPTO,
       args0: [
+        {
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Switch.svg",
+          width: 60,
+          height: 60,
+        },
         {
           type: "input_value",
           name: "BACKDROP",
@@ -675,6 +695,14 @@ Blockly.Blocks["looks_nextbackdrop"] = {
   init: function () {
     this.jsonInit({
       message0: Blockly.Msg.LOOKS_NEXTBACKDROP_BLOCK,
+      args0: [
+        {
+          type: "field_image",
+          src: Blockly.mainWorkspace.options.pathToMedia + "Backdrop.svg",
+          width: 60,
+          height: 60,
+        },
+      ],
       category: Blockly.Categories.looks,
       extensions: ["colours_looks", "shape_statement"],
     });

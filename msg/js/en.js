@@ -1,9 +1,9 @@
 // This file was automatically generated.  Do not modify.
 
-"use strict";
+'use strict';
 
-goog.provide(Blockly.Msg.en);
-goog.require(Blockly.Msg);
+goog.provide('Blockly.Msg.en');
+goog.require('Blockly.Msg');
 
 Blockly.Msg["CONTROL_FOREVER"] = "forever";
 Blockly.Msg["CONTROL_REPEAT"] = "repeat %1";
@@ -103,9 +103,9 @@ Blockly.Msg["LOOKS_SETSIZETO"] = "set size to %1 %";
 Blockly.Msg["LOOKS_SIZE"] = "size";
 Blockly.Msg["LOOKS_CHANGESTRETCHBY"] = "change stretch by %1";
 Blockly.Msg["LOOKS_SETSTRETCHTO"] = "set stretch to %1 %";
-Blockly.Msg["LOOKS_SWITCHCOSTUMETO"] = "switch costume to %1";
-Blockly.Msg["LOOKS_NEXTCOSTUME"] = "next costume";
-Blockly.Msg["LOOKS_SWITCHBACKDROPTO"] = "switch backdrop to %1";
+Blockly.Msg["LOOKS_SWITCHCOSTUMETO"] = "switch %1 costume to %2";
+Blockly.Msg["LOOKS_NEXTCOSTUME"] = "next costume %1";
+Blockly.Msg["LOOKS_SWITCHBACKDROPTO"] = "switch %1 backdrop to %2";
 Blockly.Msg["LOOKS_GOTOFRONTBACK"] = "go to %1 layer";
 Blockly.Msg["LOOKS_GOTOFRONTBACK_FRONT"] = "front";
 Blockly.Msg["LOOKS_GOTOFRONTBACK_BACK"] = "back";
@@ -117,7 +117,7 @@ Blockly.Msg["LOOKS_COSTUMENUMBERNAME"] = "costume %1";
 Blockly.Msg["LOOKS_NUMBERNAME_NUMBER"] = "number";
 Blockly.Msg["LOOKS_NUMBERNAME_NAME"] = "name";
 Blockly.Msg["LOOKS_SWITCHBACKDROPTOANDWAIT"] = "switch backdrop to %1 and wait";
-Blockly.Msg["LOOKS_NEXTBACKDROP_BLOCK"] = "next backdrop";
+Blockly.Msg["LOOKS_NEXTBACKDROP_BLOCK"] = "next backdrop %1";
 Blockly.Msg["LOOKS_NEXTBACKDROP"] = "next backdrop";
 Blockly.Msg["LOOKS_PREVIOUSBACKDROP"] = "previous backdrop";
 Blockly.Msg["LOOKS_RANDOMBACKDROP"] = "random backdrop";
@@ -149,7 +149,7 @@ Blockly.Msg["MOTION_SETY"] = "set y to %1";
 Blockly.Msg["MOTION_IFONEDGEBOUNCE"] = "if on edge, bounce";
 Blockly.Msg["MOTION_SETROTATIONSTYLE"] = "set rotation style %1";
 Blockly.Msg["MOTION_SETROTATIONSTYLE_LEFTRIGHT"] = "left-right";
-Blockly.Msg["MOTION_SETROTATIONSTYLE_DONTROTATE"] = "dont rotate";
+Blockly.Msg["MOTION_SETROTATIONSTYLE_DONTROTATE"] = "dont rotate'";
 Blockly.Msg["MOTION_SETROTATIONSTYLE_ALLAROUND"] = "all around";
 Blockly.Msg["MOTION_XPOSITION"] = "x position";
 Blockly.Msg["MOTION_YPOSITION"] = "y position";
@@ -209,7 +209,7 @@ Blockly.Msg["SENSING_COLORISTOUCHINGCOLOR"] = "color %1 is touching %2?";
 Blockly.Msg["SENSING_DISTANCETO"] = "distance to %1";
 Blockly.Msg["SENSING_DISTANCETO_POINTER"] = "mouse-pointer";
 Blockly.Msg["SENSING_ASKANDWAIT"] = "ask %1 and wait";
-Blockly.Msg["SENSING_ASK_TEXT"] = "Whats your name?";
+Blockly.Msg["SENSING_ASK_TEXT"] = "Whats your name?'";
 Blockly.Msg["SENSING_ANSWER"] = "answer";
 Blockly.Msg["SENSING_KEYPRESSED"] = "key %1 pressed?";
 Blockly.Msg["SENSING_MOUSEDOWN"] = "mouse down?";
@@ -286,32 +286,28 @@ Blockly.Msg["COLOUR_SATURATION_LABEL"] = "Saturation";
 Blockly.Msg["COLOUR_BRIGHTNESS_LABEL"] = "Brightness";
 Blockly.Msg["CHANGE_VALUE_TITLE"] = "Change value:";
 Blockly.Msg["RENAME_VARIABLE"] = "Rename variable";
-Blockly.Msg["RENAME_VARIABLE_TITLE"] = 'Rename all "%1" variables to:';
+Blockly.Msg["RENAME_VARIABLE_TITLE"] = "Rename all \"%1\" variables to:";
 Blockly.Msg["RENAME_VARIABLE_MODAL_TITLE"] = "Rename Variable";
 Blockly.Msg["NEW_VARIABLE"] = "Make a Variable";
 Blockly.Msg["NEW_VARIABLE_TITLE"] = "New variable name:";
 Blockly.Msg["VARIABLE_MODAL_TITLE"] = "ariable";
-Blockly.Msg["VARIABLE_ALREADY_EXISTS"] = 'ariable named "%1" already exists.';
-Blockly.Msg["VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE"] =
-  'ariable named "%1" already exists for another variable of type "%2".';
-Blockly.Msg["DELETE_VARIABLE_CONFIRMATION"] = '1 uses of the "%2" variable?';
-Blockly.Msg["CANNOT_DELETE_VARIABLE_PROCEDURE"] =
-  'elete the variable "%1" because its part of the definition of the function "%2"';
-Blockly.Msg["DELETE_VARIABLE"] = 'Delete the "%1" variable';
+Blockly.Msg["VARIABLE_ALREADY_EXISTS"] = "ariable named \"%1\" already exists.";
+Blockly.Msg["VARIABLE_ALREADY_EXISTS_FOR_ANOTHER_TYPE"] = "ariable named \"%1\" already exists for another variable of type \"%2\".";
+Blockly.Msg["DELETE_VARIABLE_CONFIRMATION"] = "1 uses of the \"%2\" variable?";
+Blockly.Msg["CANNOT_DELETE_VARIABLE_PROCEDURE"] = "elete the variable \"%1\" because its part of the definition of the function \"%2\"'";
+Blockly.Msg["DELETE_VARIABLE"] = "Delete the \"%1\" variable";
 Blockly.Msg["NEW_PROCEDURE"] = "Make a Block";
-Blockly.Msg["PROCEDURE_ALREADY_EXISTS"] =
-  'A procedure named "%1" already exists.';
+Blockly.Msg["PROCEDURE_ALREADY_EXISTS"] = "A procedure named \"%1\" already exists.";
 Blockly.Msg["PROCEDURE_DEFAULT_NAME"] = "block name";
-Blockly.Msg["PROCEDURE_USED"] =
-  "elete a block definition, first remove all uses of the block";
+Blockly.Msg["PROCEDURE_USED"] = "elete a block definition, first remove all uses of the block";
 Blockly.Msg["NEW_LIST"] = "Make a List";
 Blockly.Msg["NEW_LIST_TITLE"] = "New list name:";
 Blockly.Msg["LIST_MODAL_TITLE"] = "New List";
-Blockly.Msg["LIST_ALREADY_EXISTS"] = 'A list named "%1" already exists.';
-Blockly.Msg["RENAME_LIST_TITLE"] = 'Rename all "%1" lists to:';
+Blockly.Msg["LIST_ALREADY_EXISTS"] = "A list named \"%1\" already exists.";
+Blockly.Msg["RENAME_LIST_TITLE"] = "Rename all \"%1\" lists to:";
 Blockly.Msg["RENAME_LIST_MODAL_TITLE"] = "Rename List";
 Blockly.Msg["DEFAULT_LIST_ITEM"] = "thing";
-Blockly.Msg["DELETE_LIST"] = 'Delete the "%1" list';
+Blockly.Msg["DELETE_LIST"] = "Delete the \"%1\" list";
 Blockly.Msg["RENAME_LIST"] = "Rename list";
 Blockly.Msg["NEW_BROADCAST_MESSAGE"] = "New message";
 Blockly.Msg["NEW_BROADCAST_MESSAGE_TITLE"] = "New message name:";

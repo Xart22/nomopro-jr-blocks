@@ -39,7 +39,7 @@ stream
         if (!match(str)) return;
         const result = extract(str);
         console.log(result);
-        storage[result.key] = result.value;
+        storage[result.key] = result.value.replace("'",'');
     }))
     .pipe(es.wait(function (err) {
         if (err) throw new Error(err);
