@@ -98,7 +98,7 @@
   "LOOKS_NUMBERNAME_NAME": "nama",
   "LOOKS_SWITCHBACKDROPTOANDWAIT": "ganti latar ke %1 dan tunggu",
   "LOOKS_NEXTBACKDROP_BLOCK": "latar berikutnya %1",
-  "LOOKS_NEXTBACKDROP": "latar berikutnya",
+  "LOOKS_NEXTBACKDROP": "latar berikutnya %1",
   "LOOKS_PREVIOUSBACKDROP": "latar sebelumnya",
   "LOOKS_RANDOMBACKDROP": "latar sembarang",
   "MOTION_MOVESTEPS": "gerak %1 langkah",

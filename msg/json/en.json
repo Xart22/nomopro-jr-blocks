@@ -112,7 +112,7 @@
     "LOOKS_NUMBERNAME_NAME": "name",
     "LOOKS_SWITCHBACKDROPTOANDWAIT": "switch backdrop to %1 and wait",
     "LOOKS_NEXTBACKDROP_BLOCK": "next backdrop %1",
-    "LOOKS_NEXTBACKDROP": "next backdrop",
+    "LOOKS_NEXTBACKDROP": "next backdrop %1",
     "LOOKS_PREVIOUSBACKDROP": "previous backdrop",
     "LOOKS_RANDOMBACKDROP": "random backdrop",
     "MOTION_MOVESTEPS": "move %1 steps",
